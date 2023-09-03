@@ -1,0 +1,13 @@
+options.txt
+saves/
+resourcepacks/
+resources/
+shaderpacks/
+logs/
+crash-reports/
+screenshots/
+launcher.properties
+ram.txt
+launcher/
+game/
+journeymap/
