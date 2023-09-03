@@ -16,3 +16,7 @@ jobs:
       - name: Download Launcher
         run: |
           git clone https://github.com/SynkMC/launcherFiles.git
+      - name: Remove folders
+        run: |
+          rmdir .github
+          rmdir .git
