@@ -1,0 +1,18 @@
+name: Download Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Download Launcher
+        run: |
+          git clone https://github.com/SynkMC/launcherFiles.git
